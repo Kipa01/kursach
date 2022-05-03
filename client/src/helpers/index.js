@@ -1,0 +1,1 @@
+export const imgSrc = (path) => require(`../static/images/arts/${path.split('\\').pop()}`)
